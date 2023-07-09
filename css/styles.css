@@ -28,6 +28,8 @@ h1,h2,h3,h4,h5,h6,p{
 }
 img{
     display: block;
+    max-width: 100%;
+    height: auto;
 }
 
 ul,ol{
@@ -50,8 +52,7 @@ button {
 /* Header */
 .container {
 width: 1158px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
     outline: 2px solid red;
@@ -61,6 +62,7 @@ width: 1158px;
 .header {
 padding-top: 24px;
 padding-bottom: 24px;
+
 }
 
 .header-container{
@@ -112,6 +114,8 @@ gap: 40px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--navyblue);
+    display: block;
+    padding: 24px 0;
 }
 
 .header-link:hover,
@@ -167,11 +171,13 @@ font-size: 16px;
 }
 
 .hero-title {
-    text-align: center;
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
+    text-align: center;
     color: var(--white);
+    margin: 0 auto;
+    margin-bottom: 48px;
 }
 
 .hero-btn {
@@ -181,6 +187,13 @@ font-size: 16px;
     letter-spacing: 0.04em;
     color: var(--white);
     background: var(--iris);
+    min-width: 169;
+    min-height: 56;
+    padding: 16px 32px;
+    border-radius: 4px;
+    border: 0;
+    display: block;
+    margin: 0 auto;
 }
 
 .hero-btn:hover,
