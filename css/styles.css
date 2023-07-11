@@ -176,6 +176,7 @@ font-size: 16px;
     letter-spacing: 0.02em;
     text-align: center;
     color: var(--white);
+    width: 496px;
     margin: 0 auto;
     margin-bottom: 48px;
 }
@@ -217,6 +218,9 @@ display: flex;
 
 .feature-list-fool {
   weight: 264px;
+margin-left: 24px;
+margin: 0 auto;
+
 }
 
 .feature-hero {
@@ -233,6 +237,7 @@ display: flex;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--slate);
+    
 }
 
 /* What are we doing */
@@ -258,7 +263,10 @@ display: flex;
 
 .technologies-list {}
 
-.technologies {}
+.technologies {
+    padding-left: 156px;
+    padding-right: 156px;
+}
 
 /*our-team */
 .our-team {
