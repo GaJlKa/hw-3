@@ -12,6 +12,7 @@
     --slate: #434455;
 }
 
+
 .link {
   text-decoration: none;
 }
@@ -56,12 +57,13 @@ width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
     outline: 2px solid red;
-    outline-offset: -2px;
+        outline-offset: -2px;
 }
 
 .header {
 padding-top: 24px;
 padding-bottom: 24px;
+border-bottom: 1px solid #e7e9fc;
 
 }
 
@@ -179,6 +181,7 @@ font-size: 16px;
     width: 496px;
     margin: 0 auto;
     margin-bottom: 48px;
+    
 }
 
 .hero-btn {
@@ -214,12 +217,16 @@ font-size: 16px;
 
 .feature-list {
 display: flex;
+align-items: center;
+justify-content: center;
+gap: 24px;
 }
 
 .feature-list-fool {
   weight: 264px;
 margin-left: 24px;
 margin: 0 auto;
+padding: 0;
 
 }
 
@@ -259,13 +266,16 @@ margin: 0 auto;
     text-align: center;
     text-transform: capitalize;
     color: var(--navyblue);
+    margin-bottom: 72px;
 }
 
-.technologies-list {}
+.technologies-list {
+    display: flex;
+    gap: 24px;
+}
 
 .technologies {
-    padding-left: 156px;
-    padding-right: 156px;
+  width: calc((100% - 48px) / 3);
 }
 
 /*our-team */
@@ -286,13 +296,24 @@ background: var(--cloud)
     text-align: center;
     text-transform: capitalize;
     color: var(--navyblue);
+    margin-bottom: 72px;
 }
 
 .team-work {
     background-color: var(--white);
 }
 
-.team-work img {}
+.our-team-list {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.our-team-div{
+    padding: 32px 16px;
+}
 
 .name-team {
     font-weight: 500;
@@ -321,11 +342,18 @@ padding-bottom: 100px;
 }
 
 .logo-link{
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
     color: var(--iris);
+    margin-bottom: 16px;
+    display: inline-block;
 }
 
 .down-logo {
-    color: var(--cloud)
+    color: var(--cloud);
+    
 }
 
 .footer-text {
@@ -333,8 +361,8 @@ padding-bottom: 100px;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--cloud)
-    
+    color: var(--cloud);
+    width: 264px;
 }
 
 /* PORTFOLIO */
@@ -351,10 +379,18 @@ padding-bottom: 100px;
     letter-spacing: 0.04em;
     color: var(--iris);
         background-color: var(--cloud);
+
+}
+
+.button-section{
+
 }
 
 .sections-filters {
-
+        display: flex;
+            justify-items: center;
+            margin-bottom: 72px;
+            gap: 24px;
 }
 
 
@@ -365,7 +401,10 @@ padding-bottom: 100px;
 }
 
 .section-list{
-    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 48px 28px;
 }
 .section-item{
     font-weight: 500;
