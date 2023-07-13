@@ -22,6 +22,19 @@
   text-decoration: none;
 }
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden; 
+}
+
 body {
     font-family: var(--primary-font);
 background-color: var(--white);
@@ -56,16 +69,16 @@ button {
     cursor: pointer;
 }
 
-/* Header */
 .container {
-width: 1158px;
+    width: 1158px;
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
     outline: 2px solid red;
-        outline-offset: -2px;
+    outline-offset: -2px;
 }
 
+/* Header */
 .header {
 padding-top: 24px;
 padding-bottom: 24px;
@@ -174,10 +187,11 @@ font-size: 16px;
     background: var(--navyblue);
     padding: 188px 0;
     margin-bottom: 120px;
+    
 }
 
 .section-container{
-
+max-width: 496px;
 }
 
 .hero-title {
@@ -199,7 +213,7 @@ font-size: 16px;
     letter-spacing: 0.04em;
     color: var(--white);
     background: var(--iris);
-    min-width: 169;
+    min-width: 169px;
     min-height: 56;
     padding: 16px 32px;
     border-radius: 4px;
@@ -216,7 +230,7 @@ font-size: 16px;
 
 /* feature */
 .feature{
-    padding: 120px 0;
+    padding: 120px 0 120px;
 }
 
 .feature-container{
@@ -330,16 +344,18 @@ padding: 120px 0;
 .name-team {
     font-weight: 500;
     font-size: 20px;
+    text-align: center;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--navyblue);
-    
+    margin-bottom: 8px;
 }
 
 .team-skill {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    text-align: center;
     color: var(--slate);   
 }
 
