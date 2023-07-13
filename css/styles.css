@@ -127,9 +127,7 @@ gap: 40px;
 
 }
 
-.header-item {
-    
-    
+.header-item { 
 }
 
 .header-link {
@@ -173,7 +171,6 @@ font-size: 16px;
 }
 
 .header-page {
-    
 }
 
 
@@ -192,7 +189,6 @@ font-size: 16px;
 }
 
 .section-container{
-
 }
 
 .hero-title {
@@ -234,7 +230,6 @@ font-size: 16px;
 }
 
 .feature-container{
- 
 }
 
 .feature-list {
@@ -245,7 +240,7 @@ gap: 24px;
 }
 
 .feature-list-fool {
-  weight: 264px;
+weight: 264px;
 margin-left: 24px;
 margin: 0 auto;
 padding: 0;
@@ -278,7 +273,6 @@ width: calc((100% - 72px) / 4);
 }
 
 .what-we-doing-container{
-
 }
 
 .technologies-hero {
@@ -309,7 +303,6 @@ padding: 120px 0;
 }
 
 .our-team-container{
-
 }
 
 .our-team-hero {
@@ -367,7 +360,6 @@ padding-bottom: 100px;
 }
 
 .footer-container{
-
 }
 
 .logo-link{
@@ -405,11 +397,11 @@ padding-bottom: 100px;
 /* PORTFOLIO */
 
 .portfolio-page{
-   
 }
 
 .section-row-filters{
-
+padding-top: 96px;
+padding-bottom: 120px;
 }
 
 .button-filters{
@@ -424,11 +416,13 @@ padding-bottom: 100px;
     cursor: pointer;
     border: 1px solid #e7e9fc;
     border-radius: 4px;
-    justify-content: center;
+    
 }
 
 .button-section{
-
+display: flex;
+justify-content: center;
+padding: 12px 24px;
 }
 
 .sections-filters {
@@ -445,6 +439,9 @@ padding-bottom: 100px;
     color: var(--white);
     background-color: var(--ocean);
     border: 1px solid transparent;
+}
+
+.section-photo{
 }
 
 .photo-portfolio{
